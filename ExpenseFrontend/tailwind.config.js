@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'mobileL':"480px",
+        'mobileM':"430px",
+        'mobileS':"375px"
+      },
       fontFamily:{
         headings: ["Noto Serif", "serif"],
         texts:[ "Raleway", "sans-serif"]
